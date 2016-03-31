@@ -8,7 +8,7 @@ This project was completed as a three week assignment for the Metis Data Science
 * Apply Natural Language Process (NLP) tools to process the text data for each company's description: word tokenization, TFIDF
 * Condense terms using Non-negative matrix factorization (NMF) for topic modeling
 * Assign TFIDF term scores and NMF topic scores to each business and investor (average scores across all companies invested in)
-* Use cosine distance as a metric to measure similarity between businesses and other business as well as businesses and investors
+* Use cosine distance as a metric to measure similarity between businesses as well as businesses and investors
 * Return "top n" businesses and investors based on similarity to any selected business in the CrunchBase dataset
 
 The code for processing the text data and building topics can be found in the file: [Feature_Extraction_TFIDF_NMFTopics.ipynb](https://github.com/scullem/crunchbase_recommender/blob/master/Feature_Extraction_TFIDF_NMFTopics.ipynb) <br>
