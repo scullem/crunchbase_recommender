@@ -5,7 +5,7 @@ This project was completed as a three week assignment for the Metis Data Science
 # Process
 * Import 2013 snapshot of CrunchBase's database (provided by CrunchBase) into SQL database
 * Select US companies and investors to include in the model
-* Apply Natural Language Process (NLP) tools to process the text data for each company's description: word tokenization, TFIDF
+* Apply Natural Language Processing (NLP) tools to process the text data for each company's description: word tokenization, TFIDF
 * Condense terms using Non-negative matrix factorization (NMF) for topic modeling
 * Assign TFIDF term scores and NMF topic scores to each business and investor (average scores across all companies invested in)
 * Use cosine distance as a metric to measure similarity between businesses as well as businesses and investors
